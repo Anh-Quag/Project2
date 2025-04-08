@@ -13,6 +13,20 @@ body {
   font-weight:400px;
 }
 
+
+.logo {
+  width: 120px; /* Chỉnh kích thước logo nhỏ lại */
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px; /* Tạo khoảng cách giữa logo và menu */
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 ul li {
   list-style: none;
 }

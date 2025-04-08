@@ -25,4 +25,6 @@ Route::get('/home', function () {
 Route::get('/shop', function () {
     return response()->file(public_path('Eshopper/index.html'));
 });
-   
+Route::get('/login', function () {
+    return view('login');
+});
